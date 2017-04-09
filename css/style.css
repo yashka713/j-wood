@@ -192,3 +192,9 @@ body{
 .align-center{
 	text-align: center;
 }
+.footer{
+	border-top: 1px solid #bebebe;
+	padding: 15px 0;
+	text-transform: uppercase;
+	color: #bebebe;
+}
