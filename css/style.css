@@ -188,7 +188,15 @@ body{
     margin: 0 5px;
     color: black;
 }
+
 .link{
 	text-decoration: none;
+}
 
+.footer{
+	border-top: 1px solid #bebebe;
+	padding: 15px 0;
+	text-transform: uppercase;
+	text-align: center;
+	color: #bebebe;
 }
