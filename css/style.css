@@ -2,14 +2,7 @@
 body{
 	font-family: "nexa_lightregular", "Arial", "san-serif";
 }
-.header{
-	width: 1320px;
-	height: 100vh;
-	background: url("../images/Background.jpg");
-	background-position: -252px -97px;
-	margin: -25px auto;
-}
-
+/*nav bar*/
 .nav{
 	margin: 0 auto;
 	font-size: 24px;
@@ -20,7 +13,6 @@ body{
 
 .menu{
 	display: block;
-	text-align: center;
 	border-bottom: 1px solid #bebebe;
 	margin: 0 68px;
 }
@@ -32,13 +24,22 @@ body{
 
 .menu-text{
 	color: #bebebe; 
-	text-decoration: none;
 	text-transform: uppercase;
+}
+
+.wrapper{
+	width: 1320px;
+	height: 100vh;
+}
+
+.header{
+	background: url("../images/Background.jpg");
+	background-position: -252px -97px;
+	margin: -25px auto;
 }
 
 .logo{
 	margin: 25px 0 0 0;
-	text-align: center;
 	padding-top: 107px;
 }
 
@@ -59,47 +60,47 @@ body{
 
 .title{
 	margin: 25px 0;
-	text-align: center;
 	color: #ffffff;
 	font-size: 50px;
 }
+
 .title>strong{
 	font-family: "nexa_boldregular", "Arial", "san-serif";
 	font-weight: bolder;
 }
+
 .scroll{
-	text-align: center;
 	clear: both;
 	color: #bebebe;
 	display: block;
 	padding-top: 25px;
 }
+
 .header>.scroll{
 	padding-top: 0;
 }
+
 .scroll-link{
     background: url("../images/Double Arrow.png") center 18px no-repeat;
     color: #ffffff;
-    text-decoration: none;
     height: 52px;
     display: inline-block;
 }
 /*About me*/
 .aboutMe{
     margin: 25px 0 -70px;
-    width: 1320px;
     padding-top: 100px;
-    height: 100vh;
 }
 
 .block-left{
 	float: left;
 	width: 50%;
-	text-align: center;
 }
+
 .aboutMe-photo{
 	width: 75%;
 }
+
 .block-right{
 	padding-left: 40px;
 	float: right;
@@ -107,48 +108,51 @@ body{
 	clear: right;
 	box-sizing: border-box;
 }
+
 .aboutMe-title{
 	text-transform: uppercase;
 	margin-top: 50px;
 	font-size: 30px;
 	color: #202020;
 }
+
 .aboutMe-text{
 	color: #494949;
 	padding: 35px 0;
 	line-height: 2;
 	font-size: 22px;
 }
+
 .aboutMe-sign{
 	font-family: "felt_tip_womanregular";
 	font-size: 32px;
 }
+
 .scroll-link{
 	color: #bebebe;
 }
 /*Portfolio*/
 .portfolio{
 	background: url("../images/Background_portfolio.png") center center no-repeat;
-	width: 1320px;
-	height: 100vh;
 	margin: 0 auto; 
 }
 
 .portfolio-title{
     padding-top: 6%;
     padding-bottom: 1%;
-    text-align: center;
     text-transform: uppercase;
     font-size: 50px;
     color: #f1f1f1;
 }
-.portfolio-examples{
+
+.do-flex{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content:center;
 	align-items: center;
 	align-content: center;
 }
+
 .portfolio-img{
 	width: 15%;
     height: 20%;
@@ -159,14 +163,6 @@ body{
 /*contact*/
 .contact{
 	margin: 0 auto;
-	width: 1320px;
-	height: 100vh;
-	text-align: center;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content:center;
-	align-items: center;
-	align-content: center;
 }
 
 .phone-title, .email-title, .social-title {
@@ -188,7 +184,11 @@ body{
     margin: 0 5px;
     color: black;
 }
+
 .link{
 	text-decoration: none;
+}
 
+.align-center{
+	text-align: center;
 }
