@@ -3,6 +3,7 @@
 <head>
 	<title>Project</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 </head>
@@ -10,19 +11,19 @@
 	<nav class="nav nav-top">
 		<ul class="menu menu-top">
 			<li class="menu-item menu-item--top">
-				<a href="#" class="menu-text">home</a> 
+				<a href="#header" class="menu-text">home</a> 
 			</li>
 				<li class="menu-item menu-item--top">
-				<a href="#" class="menu-text">about me</a>
+				<a href="#aboutMe" class="menu-text">about me</a>
 			<li class="menu-item menu-item--top">
-				<a href="#" class="menu-text">portfolio</a> 
+				<a href="#portfolio" class="menu-text">portfolio</a> 
 			</li>
 			<li class="menu-item menu-item--top">
-				<a href="#" class="menu-text">contact</a> 
+				<a href="#contact" class="menu-text">contact</a> 
 			</li>
 		</ul>
 	</nav>
-	<header class="header">
+	<header class="header" id="header">
 		
 		<div class="logo">
 			<img class="logo-img" src="images/Logo.png" alt="Logo"></img>
@@ -34,14 +35,14 @@
 			</p>
 		</div>
 		<div class="scroll">
-			<a class="scroll-link" href="#">
+			<a class="scroll-link" href="#aboutMe">
 				<span>
 					scroll down to see more		
 				</span>
 			</a>
 		</div>
 	</header>
-	<section class="aboutMe">
+	<section class="aboutMe" id="aboutMe">
 		<div class="block-left">
 			<img src="images/Jason Wood.png" alt="My Photo" class="aboutMe-photo">
 		</div> 
@@ -58,14 +59,14 @@
 			</p>
 		</div>
 		<div class="scroll">
-			<a class="scroll-link" href="#">
+			<a class="scroll-link" href="#portfolio">
 				<span>
 					keep scrolling, there is still more to come.	
 				</span>
 			</a>
 		</div>
 	</section>
-	<section class="portfolio">
+	<section class="portfolio" id="portfolio">
 		<p class="portfolio-title">
 			Portfolio
 		</p>
@@ -82,12 +83,42 @@
 			<img src="images/10.png" alt="example 10" class="portfolio-img">
 		</div>
 		<div class="scroll">
-			<a class="scroll-link" href="#">
+			<a class="scroll-link" href="#contact">
 				<span>
 					do you want to see it with your own eyes? Scroll!
 				</span>
 			</a>
 		</div>
 	</section>
+	<div class="contact" id="contact">
+		<div class="contact-information">
+			<p class="email-title">
+				MAIL:
+			</p>
+			<p class="email-information">
+				Jason@wood.com
+			</p>
+			<p class="phone-title">
+				phone:
+			</p>
+			<p class="phone-information">
+				+44 212 432 444
+			</p>
+			<div class="social">
+				<p class="social-title">
+					social media:
+				</p>
+				<a href="#" class="link">
+					<i class="social-icon fa fa-facebook fa-3x"></i>
+				</a>
+				<a href="#" class="link">
+					<i class="social-icon fa fa-twitter fa-3x"></i>
+				</a>
+				<a href="#" class="link">
+					<i class="social-icon fa fa-instagram fa-3x"></i>
+				</a>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
